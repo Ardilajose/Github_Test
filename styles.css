@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #00ffff;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #00ffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #00ffff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 1.5em;
+    max-width: 900px;
+    margin: 1em auto;
+    background: #111111;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #00ffff;
+}
+
+section h2 {
+    color: #00ffff;
+}
+
+/* Category List */
+.category-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.category {
+    flex: 1 1 calc(30% - 1em);
+    background: #1a1a1a;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.category h3 {
+    color: #555;
+}
+
+.category .btn {
+    display: inline-block;
+    margin-top: 1em;
+    background: #000000;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.category .btn:hover {
+    background: #007bff6b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    margin-top: 2em;
+}
